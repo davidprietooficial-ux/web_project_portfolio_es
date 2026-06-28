@@ -21,7 +21,7 @@
 }
 
 .projects__item {
-  width: 590px;
+  width: calc(50% - 10px);
   flex-shrink: 0;
   box-sizing: border-box;
   padding: 0 24px 24px;
@@ -79,6 +79,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
+}
+
+.projects__description-extra {
+  display: block;
 }
 
 .projects__links {
